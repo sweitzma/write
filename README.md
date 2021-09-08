@@ -12,4 +12,5 @@ spiff
   --in-dir <markdown-dir> 
   --out-dir <html-dir>
   [--tw-style-file] <custom tailwindcss file>
+  [--watch]
 ```
