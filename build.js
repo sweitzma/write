@@ -2,6 +2,7 @@ import {readSync, writeSync} from 'to-vfile'
 import {reporter} from 'vfile-reporter'
 import {unified} from 'unified'
 import remarkParse from 'remark-parse'
+import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
 import rehypeDocument from 'rehype-document'
 import rehypeFormat from 'rehype-format'
@@ -17,6 +18,7 @@ const docOpts = {
 
 unified()
   .use(remarkParse)
+  .use(remarkGfm)
   .use(remarkRehype)
   .use(rehypeDocument, docOpts)
   .use(rehypeFormat)
