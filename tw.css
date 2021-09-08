@@ -1,0 +1,12 @@
+@layer base {
+  * {
+    @apply font-mono
+  }
+  h1 {
+    @apply text-2xl italic;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+

@@ -1,0 +1,15 @@
+# do not check in node packages
+node_modules
+
+# for local development
+log
+todo.md
+idea.txt
+
+# secrets
+.env
+
+# strays
+.DS_Store
+yarn-error.log
+

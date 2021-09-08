@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "scripts": {
+    "b": "node build",
+    "build-css": "NODE_ENV=production postcss tw.css -o dist/style.css",
+    "watch-css": "postcss tw.css -o dist/style.css -w"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "rehype-document": "^6.0.0",
+    "rehype-format": "^4.0.0",
+    "rehype-stringify": "^9.0.2",
+    "remark": "^14.0.1",
+    "remark-cli": "^10.0.0",
+    "remark-html": "^14.0.1",
+    "remark-rehype": "^9.0.0",
+    "tailwindcss": "^2.2.11",
+    "unified": "^10.1.0",
+    "watch": "^1.0.2",
+    "webpack": "^5.52.0"
+  }
+}

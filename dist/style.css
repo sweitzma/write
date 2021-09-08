@@ -1,0 +1,15 @@
+* {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
