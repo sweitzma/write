@@ -21,7 +21,6 @@ const markdownToHtml = (inputFile, outputPath) => {
     link: [{ rel: "stylesheet", href: "/style.css" }],
     script: [
       String(readSync("live.js")),
-      String(readSync("collapse.js")),
     ]
   };
   const secOpts = {
