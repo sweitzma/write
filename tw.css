@@ -1,5 +1,5 @@
 @layer base {
-  * {
+  body { 
     @apply font-mono
   }
   h1 {
@@ -7,6 +7,24 @@
   }
   h2 {
     @apply text-xl;
+  }
+
+  a {
+    color: DarkSlateBlue;
+
+    a:visited {
+      color: inherit;
+    }
+  }
+
+  /* assumes pre only surrounds code blocks */
+  pre {
+    background-color: LightSteelBlue;
+    @apply mx-4;
+  }
+
+  code {
+    font-size: large;
   }
 }
 

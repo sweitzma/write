@@ -8,6 +8,8 @@ idea.txt
 
 # secrets
 .env
+src/
+dist/
 
 # strays
 .DS_Store

@@ -1,12 +1,16 @@
 {
   "type": "module",
   "scripts": {
+    "w": "node build -w",
     "b": "node build",
     "build-css": "NODE_ENV=production postcss tw.css -o dist/style.css",
     "watch-css": "postcss tw.css -o dist/style.css -w"
   },
   "dependencies": {
     "autoprefixer": "^10.3.4",
+    "chokidar-cli": "^3.0.0",
+    "http-server": "^13.0.2",
+    "nodemon": "^2.0.12",
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "rehype-document": "^6.0.0",
@@ -20,6 +24,6 @@
     "tailwindcss": "^2.2.11",
     "unified": "^10.1.0",
     "watch": "^1.0.2",
-    "webpack": "^5.52.0"
+    "ws": "^8.2.2"
   }
 }

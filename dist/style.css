@@ -1,4 +1,4 @@
-* {
+body {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
@@ -11,5 +11,22 @@ h1 {
 h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+a {
+  color: DarkSlateBlue;
+  a:visited {
+    color: inherit;
+  }
+}
+
+pre {
+  background-color: LightSteelBlue;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+code {
+  font-size: large;
 }
 
